@@ -2,8 +2,15 @@ import React from "react";
 
 function MainPage() {
   return (
-    <main className="main-page">
-      <div className="retsept">
+    
+    <>
+      <label className="search">
+        <input name="myInput" defaultValue="Search" />
+      </label>
+    
+
+    <div className="retseptid">
+      <div className="retsept-1">
         <img className="pilt" src="./src/Pic/retsept-1.png" alt="food" />
         <h3 className="text">Retsepti Nimi</h3>
         <p className="text">
@@ -18,7 +25,7 @@ function MainPage() {
 
         <div />
       </div>
-      <div className="retsept">
+      <div className="retsept-2">
         <img className="pilt" src="./src/Pic/retsept-1.png" alt="food" />
         <h3 className="text">Retsepti Nimi</h3>
         <p className="text">
@@ -33,7 +40,7 @@ function MainPage() {
 
         <div />
       </div>
-      <div className="retsept">
+      <div className="retsept-3">
         <img className="pilt" src="./src/Pic/retsept-1.png" alt="food" />
         <h3 className="text">Retsepti Nimi</h3>
         <p className="text">
@@ -48,7 +55,8 @@ function MainPage() {
 
         <div />
       </div>
-    </main>
+    </div>
+    </>
   );
 }
 
