@@ -9,7 +9,7 @@ function MainPage() {
         <input className="search" name="search" defaultValue="Search" />
       
 
-      <img className="foodful-logo" src="./src/Pic/foodful-logo.png" alt="foodful" />
+      <img className="foodful-logo" src="https://photos.google.com/album/AF1QipNmDWNb9-L73q1vJl5qNlkOJzPxqsd879sOkUCH/photo/AF1QipPfLBTNoHd-KXxG1P-Sruk1tjU-3T2M_J3FLdHC" alt="foodful" />
 
       <button className="login">Login</button>
     
