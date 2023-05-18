@@ -5,6 +5,48 @@
   font-family: Roboto;
 }
 
+.login {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 24px;
+position: absolute;
+width: 97px;
+height: 48px;
+left: 1134px;
+top: 53px;
+background: #38A169;
+border-radius: 6px;
+border: none;
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+
+.search {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: -250px;
+  height: 48px;
+  width: 200px;
+  border: 1px solid #E2E8F0;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 12px;
+  background-color: white;
+  color: #CBD5E0;
+  
+}
+
+.foodful-logo {
+position: absolute;
+width: 252px;
+height: 92px;
+left: 50px;
+top: 31px;
+}
+
 .retseptid {
   display: flex;
   justify-content: space-between;
@@ -28,7 +70,8 @@
 
 .text,
 .heart,
-.likes {
+.likes,
+.search {
     background-color: white;
 }
 
@@ -43,13 +86,14 @@
   margin-top: 1px;
 }
 
-.Login-Form {
+.login-form {
   width: 250px;
   height: 250px;
   background-color: white;
   margin-top: 120px;
 }
 
-.input {
+.username,
+.password {
   background-color: white;
 }

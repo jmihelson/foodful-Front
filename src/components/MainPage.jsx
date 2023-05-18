@@ -1,12 +1,17 @@
 import React from "react";
 
+
 function MainPage() {
   return (
     
     <>
-      <label className="search">
-        <input name="myInput" defaultValue="Search" />
-      </label>
+      
+        <input className="search" name="search" defaultValue="Search" />
+      
+
+      <img className="foodful-logo" src="./src/Pic/foodful-logo.png" alt="foodful" />
+
+      <button className="login">Login</button>
     
 
     <div className="retseptid">

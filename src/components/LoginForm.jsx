@@ -2,16 +2,16 @@ import React from "react";
 
 function LoginForm() {
   return (
-    <div className="Login-Form">
+    <div className="login-form">
       <h1>Login Form</h1>
       <label>
         Username: <br />
-        <input name="Username" />
+        <input className="username" name="Username" />
       </label>
       <label>
         Password: <br />
         <br />
-        <input name="Password" />
+        <input className="password" name="Password" />
       </label>
     </div>
   );
